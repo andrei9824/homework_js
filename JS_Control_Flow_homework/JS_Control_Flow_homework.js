@@ -6,11 +6,13 @@
 // impozit = cap_cilindrica * 22 / 200;
 // impozit_final = Math.floor(impozit);
 // console.log("Impozitul datorat statului este: " + impozit_final);
-
-let auto_type = prompt("Care este tipul de auto pentru care vreti sa platiti impozit?(autoturism/motocicleta/camion");
-let autoturism="autoturism";
-let motocicleta="motocicleta";
-let camion="camion";
+let impozit;
+let impozit_final;
+let Impozitul;
+const auto_type = prompt("Care este tipul de auto pentru care vreti sa platiti impozit?(autoturism/motocicleta/camion");
+const autoturism="autoturism";
+const motocicleta="motocicleta";
+const camion="camion";
 if (auto_type === autoturism) {
     while (isNaN(autoturism)) {
         autoturism = prompt("Introduceti o capacitate cilindrica valida:");
