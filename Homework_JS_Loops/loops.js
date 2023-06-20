@@ -58,3 +58,7 @@ function fibonacci(n) {
   let primele20NumereFibonacci = fibonacci(20);
   console.log("Primele 20 de numere din șirul lui Fibonacci: " + primele20NumereFibonacci);
   
+
+
+
+
